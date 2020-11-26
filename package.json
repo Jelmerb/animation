@@ -5,7 +5,8 @@
   "main": "animation.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html -d docs --public-url /animation"
   },
   "keywords": [],
   "author": "Jelmer Brands <jelmerbrands@icloud.com>",
@@ -14,6 +15,7 @@
     "popmotion": "^8.7.6"
   },
   "devDependencies": {
-    "cssnano": "^4.1.10"
+    "cssnano": "^4.1.10",
+    "parcel": "^1.12.4"
   }
 }
